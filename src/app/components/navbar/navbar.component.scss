@@ -1,0 +1,24 @@
+body{
+    width: 100%;
+}
+nav{
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    span{
+        display: inline-block;
+    }
+    span:hover::after{
+        content: '';
+  height: 5px;
+  background: #FF65B6;
+  border-radius: 5px;
+  display: block
+    }
+    a{
+        color: #101010;
+        text-decoration: none;
+    } 
+}
