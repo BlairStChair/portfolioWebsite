@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+}
+nav{
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    a{
+        color: #101010;
+        text-decoration: none;
+        position: relative;
+    } 
+    a::after{
+        content: '';
+        height: 4px;
+        background:#FF65B6;
+        bottom: -8px; 
+        width: 100%;
+        border-radius: 5px;
+        left: 0;
+        position: absolute;
+        transition: opacity 0.3s ease;
+        opacity: 0;
+    }
+    a:hover::after{
+        opacity: 1;
+    }
+    
+}
