@@ -5,15 +5,35 @@
     flex-direction: column;
     gap: 20px;
     text-wrap: nowrap;
+
+    #stars1{
+        position: absolute;
+        z-index: 999;
+        width: 50px;
+        left: 185px;
+        top: 470px;
+        background-color: rgba(250, 235, 215, 0);
+    }
+
+    #stars2{
+        position: absolute;
+        z-index: 998;
+        width: 70px;
+        left: 655px;
+        background-color: rgba(250, 235, 215, 0);
+    }
+
+    h1{
+        font-family: 'Playfair_Display';
+        font-weight: 900;
+        font-size: 80px;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 34px;
+    }
 }
 
-h1{
-    font-family: 'Playfair_Display';
-    font-weight: 900;
-    font-size: 80px;
-}
 
-p{
-    font-weight: 500;
-    font-size: 34px;
-}
+
