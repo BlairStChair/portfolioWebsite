@@ -21,7 +21,15 @@
   background-color: #F9F9F9;
 }
 
+main{
+  padding: 0px 20px;
+}
+
 body{
   color: #101010;
-  padding: 0.5vw;
+  padding: 20px;
+}
+
+.both{
+  display: flex;
 }

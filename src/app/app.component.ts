@@ -8,10 +8,11 @@ import { ContactComponent } from "./components/contact/contact.component";
 import { EducationComponent } from "./components/education/education.component";
 import { SkillsComponent } from "./components/skills/skills.component";
 import { FooterComponent } from "./components/footer/footer.component";
+import { PatternComponent } from "./components/pattern/pattern.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, HomeComponent, AboutComponent, ProjectsComponent, ContactComponent, EducationComponent, SkillsComponent, FooterComponent],
+  imports: [RouterOutlet, NavbarComponent, HomeComponent, AboutComponent, ProjectsComponent, ContactComponent, EducationComponent, SkillsComponent, FooterComponent, PatternComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
