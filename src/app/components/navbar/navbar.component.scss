@@ -2,6 +2,9 @@ body{
     width: 100%;
 }
 nav{
+    position: sticky;
+    top: 0px;
+    padding: 20px;
     font-weight: 500;
     font-size: 34px;
     display: flex;
