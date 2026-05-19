@@ -37,6 +37,10 @@ body{
   display: flex;
 }
 
+h2{
+  font-size: 40px;
+}
+
 @keyframes fadeInUp{
   0% {
     transform: translateY(30%);
